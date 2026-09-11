@@ -12,3 +12,18 @@
 - Rate limits/quotas: observed ~150 requests/min (empirical)
 - Input processing: some special chars recognized; Base64 recognized but not decoded/encoded by system
 
+
+### Recon Probing Prompts (examples)
+
+- Basic capability/identity probes
+- System-prompt/instruction probes
+- Determinism fingerprinting (repeat prompt)
+- Tokenization/edge cases (e.g., `<|>` tokenization, Unicode canary)
+- Encoding/obfuscation (Base64 decode request)
+- RAG detection (source listing / document IDs)
+- Tools/plugins capabilities (list only)
+- Moderation probing
+- Non-native language (French)
+- Chain-of-thought probe
+- Context window/limit probes
+- Memory recall probe (note recall)
